@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3155FACB8A881EB248CC30AB /* Pods_GroupedUITableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5657C93B234687D8938993BC /* Pods_GroupedUITableView.framework */; };
+		C0912AFD1DD1E03600A5A912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0912AFC1DD1E03600A5A912 /* Assets.xcassets */; };
+		C0912B0B1DD1E10200A5A912 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0912B081DD1E10200A5A912 /* AppDelegate.swift */; };
+		C0912B0F1DD1E1A600A5A912 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0912B0E1DD1E1A600A5A912 /* ViewController.swift */; };
+		C0912B151DD1E20400A5A912 /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0912B141DD1E20400A5A912 /* RowType.swift */; };
+		C0912B171DD1E21000A5A912 /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0912B161DD1E21000A5A912 /* SectionType.swift */; };
+		C0912B191DD1E22000A5A912 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0912B181DD1E22000A5A912 /* Section.swift */; };
+		C0912B1B1DD1E23400A5A912 /* ViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0912B1A1DD1E23400A5A912 /* ViewController+UITableViewDelegate.swift */; };
+		C0912B1D1DD1E24600A5A912 /* ViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0912B1C1DD1E24600A5A912 /* ViewController+UITableViewDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5657C93B234687D8938993BC /* Pods_GroupedUITableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupedUITableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F38A31EC338D3AD816CDCB /* Pods-GroupedUITableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupedUITableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupedUITableView/Pods-GroupedUITableView.release.xcconfig"; sourceTree = "<group>"; };
+		C0912AF21DD1E03600A5A912 /* GroupedUITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupedUITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0912AFC1DD1E03600A5A912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0912B011DD1E03600A5A912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0912B081DD1E10200A5A912 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0912B0E1DD1E1A600A5A912 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0912B141DD1E20400A5A912 /* RowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowType.swift; sourceTree = "<group>"; };
+		C0912B161DD1E21000A5A912 /* SectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionType.swift; sourceTree = "<group>"; };
+		C0912B181DD1E22000A5A912 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		C0912B1A1DD1E23400A5A912 /* ViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		C0912B1C1DD1E24600A5A912 /* ViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		CC4DFC33CD524E70D9F37EBF /* Pods-GroupedUITableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupedUITableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupedUITableView/Pods-GroupedUITableView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0912AEF1DD1E03600A5A912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3155FACB8A881EB248CC30AB /* Pods_GroupedUITableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF3A667D9482211261996D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4DFC33CD524E70D9F37EBF /* Pods-GroupedUITableView.debug.xcconfig */,
+				68F38A31EC338D3AD816CDCB /* Pods-GroupedUITableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE18CCACDA5F99DD2844A8D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5657C93B234687D8938993BC /* Pods_GroupedUITableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0912AE91DD1E03600A5A912 = {
+			isa = PBXGroup;
+			children = (
+				C0912AF41DD1E03600A5A912 /* Grouped-UITableView */,
+				C0912AF31DD1E03600A5A912 /* Products */,
+				6AF3A667D9482211261996D5 /* Pods */,
+				BE18CCACDA5F99DD2844A8D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0912AF31DD1E03600A5A912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0912AF21DD1E03600A5A912 /* GroupedUITableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0912AF41DD1E03600A5A912 /* Grouped-UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				C0912B071DD1E10200A5A912 /* AppDelegate */,
+				C0912B0D1DD1E1A600A5A912 /* ViewController */,
+				C0912AFC1DD1E03600A5A912 /* Assets.xcassets */,
+				C0912B011DD1E03600A5A912 /* Info.plist */,
+			);
+			path = "Grouped-UITableView";
+			sourceTree = "<group>";
+		};
+		C0912B071DD1E10200A5A912 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C0912B081DD1E10200A5A912 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C0912B0D1DD1E1A600A5A912 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0912B0E1DD1E1A600A5A912 /* ViewController.swift */,
+				C0912B101DD1E1CC00A5A912 /* Cells */,
+				C0912B111DD1E1CC00A5A912 /* Enums */,
+				C0912B121DD1E1CC00A5A912 /* Extensions */,
+				C0912B131DD1E1CC00A5A912 /* Structs */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0912B101DD1E1CC00A5A912 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C0912B111DD1E1CC00A5A912 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C0912B141DD1E20400A5A912 /* RowType.swift */,
+				C0912B161DD1E21000A5A912 /* SectionType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C0912B121DD1E1CC00A5A912 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0912B1A1DD1E23400A5A912 /* ViewController+UITableViewDelegate.swift */,
+				C0912B1C1DD1E24600A5A912 /* ViewController+UITableViewDataSource.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C0912B131DD1E1CC00A5A912 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				C0912B181DD1E22000A5A912 /* Section.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0912AF11DD1E03600A5A912 /* GroupedUITableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0912B041DD1E03600A5A912 /* Build configuration list for PBXNativeTarget "GroupedUITableView" */;
+			buildPhases = (
+				F98C5A84811B5F4821711861 /* 📦 Check Pods Manifest.lock */,
+				C0912AEE1DD1E03600A5A912 /* Sources */,
+				C0912AEF1DD1E03600A5A912 /* Frameworks */,
+				C0912AF01DD1E03600A5A912 /* Resources */,
+				84545635A69B0D01634ED9D8 /* 📦 Embed Pods Frameworks */,
+				DDA498EB2CEC2310B507A1D2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupedUITableView;
+			productName = "Grouped-UITableView";
+			productReference = C0912AF21DD1E03600A5A912 /* GroupedUITableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0912AEA1DD1E03600A5A912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GabrielMassana;
+				TargetAttributes = {
+					C0912AF11DD1E03600A5A912 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C0912AED1DD1E03600A5A912 /* Build configuration list for PBXProject "Grouped-UITableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0912AE91DD1E03600A5A912;
+			productRefGroup = C0912AF31DD1E03600A5A912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0912AF11DD1E03600A5A912 /* GroupedUITableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0912AF01DD1E03600A5A912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0912AFD1DD1E03600A5A912 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84545635A69B0D01634ED9D8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupedUITableView/Pods-GroupedUITableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA498EB2CEC2310B507A1D2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupedUITableView/Pods-GroupedUITableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98C5A84811B5F4821711861 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0912AEE1DD1E03600A5A912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0912B1D1DD1E24600A5A912 /* ViewController+UITableViewDataSource.swift in Sources */,
+				C0912B191DD1E22000A5A912 /* Section.swift in Sources */,
+				C0912B0F1DD1E1A600A5A912 /* ViewController.swift in Sources */,
+				C0912B0B1DD1E10200A5A912 /* AppDelegate.swift in Sources */,
+				C0912B1B1DD1E23400A5A912 /* ViewController+UITableViewDelegate.swift in Sources */,
+				C0912B151DD1E20400A5A912 /* RowType.swift in Sources */,
+				C0912B171DD1E21000A5A912 /* SectionType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0912B021DD1E03600A5A912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0912B031DD1E03600A5A912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0912B051DD1E03600A5A912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4DFC33CD524E70D9F37EBF /* Pods-GroupedUITableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "Grouped-UITableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GabrielMassana.Grouped.UITableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0912B061DD1E03600A5A912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F38A31EC338D3AD816CDCB /* Pods-GroupedUITableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = "Grouped-UITableView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GabrielMassana.Grouped.UITableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0912AED1DD1E03600A5A912 /* Build configuration list for PBXProject "Grouped-UITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0912B021DD1E03600A5A912 /* Debug */,
+				C0912B031DD1E03600A5A912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0912B041DD1E03600A5A912 /* Build configuration list for PBXNativeTarget "GroupedUITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0912B051DD1E03600A5A912 /* Debug */,
+				C0912B061DD1E03600A5A912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0912AEA1DD1E03600A5A912 /* Project object */;
+}
